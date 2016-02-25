@@ -1,0 +1,368 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+/*---FIRST PAGE---*/
+.background-img {
+    background-image: url(images/desert.jpg);
+    width: 100%;
+    height: 900px;
+}
+.dropdownalb {
+    color: white;
+    font-size: 33px;
+    padding: 23%;
+}
+#noborder {
+    border: 0;
+}
+svg:not(:root) {
+    overflow: hidden;
+    fill: white;
+}
+.nav-tabs>li>a {
+    line-height: 7.428571;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.adv {
+    color: black;
+    background-color: white;
+    border-radius: 14px;
+    float: right;
+    border: 0;
+    height: 30px;
+    width: 173px;
+    margin: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.title h3 {
+    font-family: 'Dancing Script';
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+.venture {
+    color: white;
+    font-size: 150px;
+    text-align: -webkit-center;
+    margin-bottom: 0;
+    font-family: 'Dancing Script';
+}
+.crazy {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.first-page-footer {
+    margin-top: 6%;
+    margin-left: 2%;
+}
+.allTrips {
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 4px;
+}
+.trip {
+    background-color: white;
+    border: 0;
+    border-radius: 26px;
+    width: 13%;
+    line-height: 217%;
+    font-weight: 600;
+}
+.africa {
+    color: white;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+.happy {
+    font-size: 20px;
+    font-weight: bold;
+}
+/*---END FIRST PAGE---*/
+
+/*---SECOND PAGE---*/
+.secondPage {
+    height: 1000px;
+}
+.header {
+    margin-top: 60px;
+    text-align: center;
+}
+.headerTitle {
+    font-size: 55px;
+    letter-spacing: 9px;
+}
+.headerDescription {
+    color: #A93434;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+.headerButton {
+    width: 20%;
+    height: 46px;
+    border-radius: 29px;
+    border: 0;
+    background-color: #447C9C;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.col-sm-3 img {
+    width: 100%;
+    height: 333px;
+}
+.images {
+    margin-top: 50px;
+}
+.images .col-sm-3 {
+    padding: 0;
+}
+.images .col-sm-3 img {
+    position: relative;
+}
+.images h3 {
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    top: 38%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.parent {
+    display: table;
+    line-height: 900px;
+    margin: auto;
+    height: 50%;
+    width: 75%;
+}
+.child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.images .col-sm-3 {
+    transition: all .2s ease-in-out;
+}
+.images .col-sm-3:hover {
+    transform: scale(0.9);
+}
+/*---END SECOND PAGE---*/
+
+/*---THIRD PAGE---*/
+.thirdPage {
+    width: 100%;
+    height: 1000px;
+}
+.madagascar {
+    margin: 50px 0;
+    background: url(images/m.jpg) no-repeat center bottom;
+    width: 100%;
+    height: 800px;
+    display: table;
+    clear: both;
+}
+.madagascar .inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.madagascar .content {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.madagascarTitle {
+    font-size: 78px;
+}
+.madagascar hr {
+    width: 6%;
+    height: 2px;
+    background-color: white;
+}
+.madagascar .col-sm-6 {
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.madagascar .read {
+    background-color: #262626;
+    border: 0;
+    border-radius: 15px;
+    width: 19%;
+    font-size: 13px;
+    line-height: 31px;
+    margin-top: 10px;
+}
+.carusel {
+    float: left;
+    border: 1px solid white;
+    border-radius: 0;
+    background-color: transparent;
+    width: 25%;
+    height: 96px;
+}
+.carusel > span {
+    font-size: 40px;
+}
+.cr {
+    float: right;
+}
+.carusel {
+    transition: all .2s ease-in-out;
+}
+.carusel:hover {
+    transform: scale(1.1);
+}
+/*---END THIRD PAGE---*/
+
+/*---FOURTH PAGE---*/
+.fourthPage {
+    height: 1000px;
+}
+.firstColumn {
+    margin: auto;
+    width: 75%;
+    margin-top: 5%;
+}
+.imageFrance {
+    width: 100%;
+    height: 153px;
+}
+.titleFR {
+    color: #A93434;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.descriptionFR {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 45px;
+    color: black;
+}
+.footerFR {
+    color: lightgray;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+.col-sm-6 {
+    padding: 15.5px;
+}
+
+.firstColumn .col-sm-6 {
+    transition: all .2s ease-in-out;
+}
+.firstColumn > .col-sm-6:hover {
+    transform: scale(1.1);
+}
+/*---END FOURTH PAGE---*/
+
+/*---FIFTH PAGE---*/
+.fifthPage {
+    clear: both;
+    height: 300px;
+    background-color: #2E2E35;
+}
+.mainColumn {
+    margin: auto;
+    width: 75%;
+    margin-top: 2%;
+    color: white;
+}
+.navi li {
+    color: #FFFBFB;
+    text-decoration: none;
+    font-size: 14px;
+    list-style-type: none;
+    line-height: 30px;
+    font-family: "FontAwesome";
+}
+.navi li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.navi li a:hover {
+    color: black;
+    background-color: white;
+}
+.mainColumn label {
+    font-family: "FontAwesome";
+    font-size: 19px;
+    font-weight: 100;
+    margin-left: 4%;
+}
+.mainColumn input {
+    display: block;
+    margin: 12px;
+    border: 0;
+    border-bottom: 1px solid grey;
+    width: 80%;
+    background: none;
+    line-height: 30px;
+}
+::-webkit-input-placeholder {
+    color: #A93434;
+    font-size: 20px;
+}
+::-moz-placeholder {
+    color: #A93434;
+}
+/* firefox 19+ */
+
+:-ms-input-placeholder {
+    color: #A93434;
+}
+/* ie */
+
+input:-moz-placeholder {
+    color: #A93434;
+}
+.mainColumn button {
+    background-color: #615957;
+    border: 0;
+    width: 34%;
+    border-radius: 20px;
+    height: 28px;
+    margin-top: 25px;
+    letter-spacing: 3px;
+}
+.footer {
+    clear: both;
+    height: 84px;
+    width: 100%;
+    background-color: #272222;
+    position: bottom;
+    margin-top: -3%;
+}
+.footer a {
+    font-size: 11px;
+    color: #B9AEAE;
+}
+.terms {
+    margin-top: 2.5%;
+}
+.footer label {
+    font-size: 10px;
+    margin-top: 8%;
+}
+.main2Column {
+    margin: auto;
+    width: 75%;
+    margin-top: 4%;
+    color: #B9AEAE;
+}
+/*---End fifth page---*/

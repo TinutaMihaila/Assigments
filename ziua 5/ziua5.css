@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+/*---GRID---*/
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    //border: 1px solid red;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 64%;
+}
+/*---END GRID---*/
+
+.bigimg {
+    width: 100%;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+  max-height: 14.8%;
+}
+
+.title,
+.price {
+    font-family: "Rockwell Extra Bold", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.description {
+    color: #bfc1c2;
+}
+.text,
+.culoare {
+    line-height: 34px;
+}
+.culoare {
+    margin-top: 5%;
+}
+select {
+    display: block;
+    padding: 1%;
+    width: 44%;
+    border-color: #E4E0E0;
+    font-size: larger;
+    font-family: "Rockwell Extra Bold", sans-serif;
+    border-radius: 6%;
+}
+input {
+    background-color: white;
+    border: 1px solid #E4E0E0;
+    padding: 13%;
+    font-size: initial;
+    border-radius: 17%;
+}
+.size {
+    margin-left: -3%;
+    margin-right: -3%;
+}
+label {
+    display: block;
+}
+.active {
+    background-color: #3C4A5A;
+    color: white;
+}
+hr {
+    border: 0;
+    background-color: #e4e0e0;
+    height: 1px;
+}
+.hrs {
+    width: 55%;
+    padding: 0 15px;
+}
+.desc {
+    padding: 0;
+    padding-left: 15px;
+}
+.sizeD {
+    padding: 0;
+    margin-top: 5%;
+}
+.btn {
+    border: none;
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #E4E0E0;
+    height: 43px;
+    padding-top: 7%;
+    color: #bfc1c2;
+}
+.first {
+    border-radius: 5% 0 0 5%;
+    border-left: 0;
+}
+.third {
+    border-radius: 0 5% 5% 0;
+    border-left: 0;
+}
+.second {
+    border-left: 0;
+}
+.txt {
+    width: 100%;
+    font-family: "Rockwell Extra Bold", sans-serif;
+    line-height: 100%;
+    font-size: 100%;
+    color: #697079;
+}
+.doi {
+    padding-top: 0;
+}

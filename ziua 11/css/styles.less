@@ -1,0 +1,131 @@
+// out: style.css
+@import "variables.less";
+@import "elements.less";
+
+* {
+  .reset();
+}
+
+.main {
+  .background-mov();
+}
+
+section {
+  .width67();
+  .height85();
+  .mijloc();
+}
+
+main {
+  .full-width();
+  .center-align();
+  .height35();
+
+}
+article {
+  width: @article-width;
+  .height65();
+  background-color: @alb;
+    margin: @centrare-orizontala;
+
+}
+main .logo {
+  height: @height-logo;
+}
+
+ main .logo img {
+   width: @width-img;
+
+ }
+main .text {
+  padding-top: @padding-top-text;
+}
+ main .title {
+   color: @alb;
+   font-size: @size-title;
+ }
+ main .content {
+   color: @alb;
+   font-size: @size-content;
+ }
+
+ .left {
+   width: @width30;
+   margin-left: @mrg-left-6;
+ }
+
+ .big-title{
+   font-size: @font-titl;
+   margin-top: @mrg-top-22;
+   font-weight: @fnt-weight;
+   color: @orange;
+ }
+ .decr {
+  font-size: @descr-size;
+}
+
+ hr {
+      border-top: @hr-border;
+}
+
+.footer {
+  font-size: @footer-size;
+  font-weight: @footer-weight;
+}
+
+.footer span {
+  color:@orange;
+}
+.masina img {
+    float: @to-right;
+    .img-match();
+}
+
+aside {
+  background-color: @orange;
+  color: @alb;
+}
+.tot {
+  height: @height100;
+  padding: 0;
+}
+.fl {
+  float:@to-left;
+}
+
+.rg {
+  float: @to-right;
+}
+.one {
+  width: @one-width;
+  height: @height100;
+  float: @to-left;
+  padding: @one-padding;
+}
+.two {
+  width: @two-width;
+  height: @height100;
+  float: left;
+}
+.three {
+  width: @three-width;
+  height: @height100;
+  float: @to-left;
+  background-color: @orange;
+  color: @alb;
+  .center-align();
+}
+sup {
+  font-size: @sup-size;
+  vertical-align: @sup-align;
+ }
+
+.three div {
+  .mijloc();
+  width: @three-div-width;
+  font-size: @three-size;
+}
+
+a {
+  color: @alb;
+}

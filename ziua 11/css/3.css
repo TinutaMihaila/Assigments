@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background-color: #32384C;
+    background-size: cover;
+    width: 100%;
+    height: 950px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #504344;
+}
+section {
+    width: 65%;
+    height: 80%;
+    margin: auto;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+article {
+    background-color: #E6E5DB;
+    width: 39%;
+    height: 100%;
+    float: left;
+    margin: auto;
+    font-size: 156%;
+}
+.stanga {
+    float: left;
+    margin-left: 7%;
+}
+.dreapta {
+    float: right;
+    margin-right: 7%;
+}
+header {
+    height: 10%;
+    border-bottom: 1px solid black;
+    width: 85%;
+    margin: auto;
+}
+.left {
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5%;
+}
+header .right {
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 5%;
+}
+main {
+    height: 80%;
+    width: 85%;
+    margin: auto;
+}
+footer {
+    height: 10%;
+    border-top: 1px solid black;
+    width: 85%;
+    margin: auto;
+    font-size: x-large;
+}
+footer .footer {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5%;
+}
+footer .footer i {
+    padding-left: 6%;
+    padding-right: 7%;
+}
+.rand {
+    height: 12.5%;
+    width: 100%;
+}
+.top {
+    border-top: 1px solid grey;
+}
+.time {
+    color: grey;
+    font-size: 70%;
+}
+.one {
+    height: 18%;
+    width: 100%;
+}
+.two {
+    width: 100%;
+    height: 19.5%;
+}
+.three {
+    width: 100%;
+    height: 20%;
+}
+.four {
+    width: 100%;
+    height: 42.5%;
+}
+.center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 5%;
+}
+a {
+    color: #504344;
+}

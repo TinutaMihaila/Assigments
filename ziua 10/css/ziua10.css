@@ -1,0 +1,497 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+}
+.first {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    box-sizing: border-box;
+}
+.first .content1 {
+    float: left;
+    margin-left: 16%;
+    color: #C3BCBC;
+    width: 22%;
+}
+.first .content1 a {
+    color: #C3BCBC;
+    text-decoration: none;
+}
+.first .content2 {
+    float: right;
+    margin-right: 21%;
+    color: #C3BCBC;
+    width: 22%;
+}
+.first .content2 a {
+    color: #C3BCBC;
+    text-decoration: none;
+}
+.first ul li {
+    list-style-type: none;
+    float: left;
+    padding: 2%;
+    padding-top: 5%;
+}
+nav {
+    font-size: 20px;
+    padding: 1.5% 12%;
+    background-color: white;
+    margin-bottom: 0;
+}
+nav .navbar {
+    border: 0;
+}
+nav .navbar-header a {
+    font-size: 41px;
+    color: black;
+    font-weight: 700;
+}
+#search {
+    border: 0;
+    border-right: 1px solid grey;
+    box-shadow: none;
+    width: 83px;
+}
+.number{
+		background-color: #BD976A;
+    border: 0;
+    border-radius: 50%;
+    width: 253%;
+    font-size: 16px;
+    color: white;
+}
+::-webkit-input-placeholder {
+    text-align: left;
+}
+::-moz-placeholder {
+    text-align: left;
+}
+:-ms-input-placeholder {
+    text-align: left;
+}
+input:-moz-placeholder {
+    text-align: left;
+}
+header {
+    background-image: url(../images/albb.png);
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    height: 375px;
+    margin-top: -20px;
+}
+header .jacket {
+    float: left;
+}
+header .title {
+    float: left;
+    margin: 5.55% 13%;
+    text-align: center;
+    line-height: 81px;
+}
+header .bag {
+    float: right;
+}
+header .title ul li {
+    list-style-type: none;
+    float: left;
+}
+header .title ul li a {
+    color: black;
+}
+header .title div {
+    font-size: 31px;
+    font-weight: 900;
+}
+header .title ul {
+    font-size: 15px;
+    padding-left: 15%;
+}
+main {
+    clear: both;
+}
+.container {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 64%;
+}
+.bigimg {
+    width: 100%;
+    min-height: 733px;
+}
+.img1 {
+    width: 100%;
+    height: 100%;
+    max-height: 14.8%;
+    min-height: 152px;
+}
+.title,
+.price {
+    font-family: "Rockwell Extra Bold", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.description {
+    color: black;
+}
+.text,
+.culoare {
+    line-height: 34px;
+}
+.culoare {
+    margin-top: 5%;
+}
+select {
+    display: block;
+    padding: 1%;
+    width: 44%;
+    border-color: #E4E0E0;
+    font-size: larger;
+    font-family: "Rockwell Extra Bold", sans-serif;
+    border-radius: 6%;
+}
+input {
+    background-color: white;
+    border: 1px solid #E4E0E0;
+    padding: 13%;
+    font-size: initial;
+    border-radius: 17%;
+}
+label {
+    max-width: 100%;
+    font-weight: 700;
+    font-size: 17px;
+    padding-right: 60px;
+    float: left;
+}
+#bigimage {
+    padding-bottom: 5%;
+}
+.active {
+    background-color: #3C4A5A;
+    color: white;
+}
+hr {
+    border: 0;
+    background-color: #e4e0e0;
+    height: 1px;
+}
+.hrs {
+    width: 55%;
+    padding: 0 15px;
+}
+.desc {
+    padding: 0;
+    padding-left: 15px;
+}
+.sizeD {
+    padding: 0;
+    margin-top: 5%;
+}
+.btn {
+    border: none;
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #E4E0E0;
+    height: 43px;
+    padding-top: 7%;
+    color: #bfc1c2;
+}
+.first {
+    border-radius: 5% 0 0 5%;
+    border-left: 0;
+}
+.third {
+    border-radius: 0 5% 5% 0;
+    border-left: 0;
+}
+.second {
+    border-left: 0;
+}
+.txt {
+    width: 100%;
+    font-family: "Rockwell Extra Bold", sans-serif;
+    line-height: 100%;
+    font-size: 100%;
+    color: #697079;
+    margin: 6% 8%;
+    padding-right: 17% !important;
+}
+.doi {
+    padding-top: 0;
+}
+.activ {
+    opacity: 1;
+    border: 2px solid #DBB471;
+}
+.inactiv {
+    opacity: 0.5;
+}
+.taiat {
+    text-decoration: line-through;
+    font-size: small;
+    color: grey;
+    padding-right: 4%;
+}
+.text .description img {
+    width: 11%;
+    height: 16px;
+    padding-bottom: 4px;
+    margin-right: 11%;
+}
+.green {
+    color: #6ED86E;
+    font-weight: bold;
+}
+.refr {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-size: 18px;
+}
+.lipsum {
+    font-size: 18px;
+}
+.culoare button {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 50%;
+}
+.pink {
+    background-color: #E6BFF4;
+}
+.orange {
+    background-color: #DBB471;
+}
+.grey {
+    background-color: #C8D2DB;
+    border: 3px solid grey;
+}
+.blue {
+    background-color: #B4D8D4;
+}
+.culoare button:focus {
+    border: 3px solid grey;
+    outline: none;
+}
+.size button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #D2CACA;
+    background-color: transparent;
+    font-size: 20px;
+}
+.size {
+    padding: 3% 0;
+}
+.size label {
+    padding-right: 86px;
+}
+.quantity button {
+    width: 30px;
+    height: 30px;
+    background-color: #F9EFEF;
+    border: 0;
+}
+.quantity .unu {
+    border: 1px solid #D0C5C5;
+    width: 56px;
+    font-weight: bold;
+    background-color: transparent;
+}
+.quantity button:focus {
+    outline: none;
+}
+.quantity label {
+    padding-right: 37px;
+}
+#noradius {
+    border-radius: 0;
+    background-color: black;
+    font-weight: bold;
+}
+.xdesc {
+    color: black;
+    font-weight: bold;
+    line-height: 65px;
+    clear: both;
+}
+.xdesc .lft {
+    float: left;
+}
+.xdesc .rgh {
+    float: right;
+}
+.claritas {
+    clear: both;
+    font-size: 17px;
+    color: black;
+    line-height: 25px;
+}
+.lista {
+    padding-left: 7%;
+    padding-top: 5%;
+    line-height: 25px;
+    color: black;
+}
+#aside {
+    padding-left: 7%;
+}
+article {
+    width: 100%;
+    height: 850px;
+    background-color: white;
+    text-align: center;
+}
+article .title {
+    text-align: center;
+    padding: 100px;
+    font-size: 18px;
+    color: gray;
+    letter-spacing: 5px;
+}
+article .title * {
+    float: left;
+}
+article .title hr {
+    width: 67px;
+    background-color: #DBB471;
+    height: 1px;
+    border: 0;
+}
+article .title .hr1 {
+    margin-left: 39%;
+}
+article .title div {
+    font-size: 20px;
+    color: black;
+    padding: 0 2%;
+    line-height: 38px;
+}
+article .title .description {
+    font-size: 13px;
+    letter-spacing: 0;
+    clear: both;
+    text-align: center;
+    margin-left: 34%;
+    font-weight: normal;
+}
+.related > img {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    z-index: 0;
+}
+.related > div > img {
+    width: 100px;
+    height: 19px;
+}
+.related .lucruri {
+    position: absolute;
+    top: 3%;
+    left: 80%;
+}
+.related .lucruri span {
+    display: block;
+    padding: 91% 1%;
+}
+.related .lucruri a {
+    color: black;
+}
+.nuafisa {
+    display: none;
+}
+.related:hover .nuafisa {
+    display: block;
+    z-index: 1;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #3C3B3B;
+    text-align: center;
+}
+footer .continut {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 5%;
+    text-align: left;
+}
+footer .continut a {
+    color: white;
+}
+footer .continut ul {
+    list-style-type: none;
+    line-height: 35px;
+}
+footer .continut .name {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 65px;
+}
+footer .continut .den,
+footer .continut a {
+    font-size: 16px;
+    color: #C7BFBF;
+}
+.den {
+	padding-bottom: 7%;
+}
+footer .continut .your {
+    height: 41px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+    width: 83%;
+}
+footer .continut .your button{
+	background-color: transparent;
+	border: 0;
+	float: right;
+	padding-top: 10px;
+}
+
+#last {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    box-sizing: border-box;
+}
+#last .content1 {
+    padding-top: 1%;
+    color: #C3BCBC;
+    width: 22%;
+    margin: 0 auto;
+}
+.detalii i {
+    padding-right: 25px;
+    padding-top: 8%;
+    color: #C7BFBF;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1630px) {
+  nav {
+    padding: 1.5% 0%;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  nav {
+    padding: 1.5% 3%;
+    font-size: 15px;
+  }
+  nav .navbar-header a {
+    font-size: 20px;
+  }
+}

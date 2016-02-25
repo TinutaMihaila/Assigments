@@ -1,0 +1,142 @@
+@bg-references: black;
+@ref-color: #7D7D7D;
+@ref-height: 50px;
+@text-color: #9C9C9C;
+@title-color: black;
+@fa-size: x-large;
+@full-width: 100%;
+@full-height: 100%;
+@container-width: 80%;
+@border-color: black;
+@text-size:130%;
+@title-size: @text-size*2;
+@title-big-size: @title-size*2;
+@schedule-color:#87BD65;
+@box-background: white;
+@weight-header: 900;
+@width-middle: 70%;
+@size-nav: 17px;
+@color-nav: black;
+@weight-nav: 700;
+@health-color: green;
+@attack-color: red;
+@magic-color:blue;
+@skill-color: indigo;
+@darker:@schedule-color;
+@heighter:#5EA532;
+
+.box-bg {
+  background-color: @box-background;
+  padding: 8%;
+  text-align: center;
+}
+
+.box-schedule{
+  background-color: @schedule-color;
+  padding: 8%;
+  text-align: center;
+}
+
+.reset{
+  padding: 0;
+  margin:0;
+}
+
+.brd-box{
+  box-sizing: border-box;
+}
+.center-vertical{
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+.rand{
+  width: @full-width;
+}
+.col-12{
+  width: @full-width;
+  float: left;
+  height: 228px;
+}
+
+.col-6 {
+  width: @full-width / 1.924;
+  padding: 5px;
+
+  float: left;
+  height: 100%;
+}
+
+.col-4{
+  width: @full-width/3;
+  padding: 5px;
+  float: left;
+  height: 100%;
+
+}
+.col-real-4 {
+  width: @full-width/3;
+  float: left;
+  height: 100%;
+      border-right: 1px solid grey;
+}
+.col-3{
+  width: @full-width/3.84;
+  padding: 5px;
+  float: left;
+  height: 100%;
+}
+.col-23 {
+  width: @full-width/4.76;
+  padding: 5px;
+  float: left;
+  height: 100%;
+}
+.col-2{
+  width: @full-width/6;
+  padding: 5px;
+  float: left;
+  height: 100%;
+}
+.col-1{
+  width: @full-width/12;
+  padding: 5px;
+  float: left;
+}
+
+.first-left{
+  padding-left: 0;
+}
+
+.first-right{
+  padding-right: 0;
+}
+
+.reference {
+  background-color: @bg-references;
+  .brd-box;
+}
+
+.has-border{
+  border: 3px solid @border-color;
+}
+
+.box-title{
+  font-size: 125%;
+  font-weight: bold;
+
+}
+.box-hr{
+    height: 2px;
+    border: 0;
+    background-color: @bg-references;
+    width: 25%;
+    margin: 20px auto;
+}
+.box-description{
+  font-size: 111%;
+}
+
+.last-row{
+  height: 16%;
+}

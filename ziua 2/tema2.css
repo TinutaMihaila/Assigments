@@ -1,0 +1,139 @@
+html {
+    background-image: url("relaxx1.jpg");
+    background-repeat: no-repeat;
+}
+body {
+    margin: 0px 200px;
+}
+div.transbox {
+    margin: 30px;
+    background-image: url(relaxx1.jpg);
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+    height: 1050px;
+}
+div.transbox header,
+section,
+footer {
+    font-weight: bold;
+}
+header {
+    height: 181px;
+    padding: 40px;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+.logo {
+    float: left;
+}
+.options {
+    float: left;
+}
+header li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.meniu2 {
+    float: left;
+}
+.meniu1 {
+    float: left;
+}
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+li ul {
+    display: none;
+}
+ul li a {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+li:hover ul {
+    display: block;
+}
+li:hover li {
+    float: right;
+}
+li:hover a {
+    background: #111;
+}
+li:hover li a:hover {
+    background: #111;
+}
+.dropdown {
+    padding-left: 300px;
+}
+section img {
+    height: 150px;
+    width: 250px;
+    margin-left: 50px;
+    float: left;
+    margin-right: 30px;
+}
+section div + div {
+    overflow: hidden;
+}
+.description {
+    float: left;
+}
+.description p {
+    font-size: 15px;
+    color: black;
+    font-family: cursive;
+}
+.descriere {
+    font-size: 25px;
+    width: 800px;
+    margin-left: 50px;
+    padding-top: 50px;
+    color: antiquewhite;
+    font-family: "Times New Roman";
+    text-align: center;
+    clear: both;
+}
+.context {
+    float: left;
+}
+button {
+    float: left;
+    margin-top: 63px;
+    padding: 16px;
+}
+aside {
+    display: inline;
+    font-size: 40px;
+    color: aliceblue;
+}
+form {
+    display: inline-block;
+    margin-left: 50px;
+}
+footer {
+    padding-top: 37px;
+    color: white;
+    text-align: center;
+    font-family: "Arial";
+}
+form button {
+    float: center;
+}

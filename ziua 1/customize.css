@@ -1,0 +1,15 @@
+h1 {
+    font-size: 24px black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+img {
+    margin-bottom: 50px;
+    float: left;
+}
+p {
+    overflow: hidden;
+}
+footer {
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background-color: #4A4A4A;
+    width: 100%;
+    height: 950px;
+    font-family: 'Titillium Web', sans-serif;
+}
+section {
+    width: 30%;
+    height: 90%;
+    margin: auto;
+    background-color: white;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+header {
+    width: 100%;
+    height: 50%;
+    background-color: #F8F7F0;
+}
+footer {
+    width: 100%;
+    height: 50%;
+    background-color: #DCDCD7;
+    padding-top: 5%;
+}
+.middle {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    height: 100%;
+}
+.title {
+    color: #4A4A4A;
+    font-size: 200%;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    line-height: 250%;
+}
+.text {
+    color: #CAC1BE;
+}
+.tcolor {
+    color: #9D949C;
+}
+.header {
+    font-size: 23px;
+    font-weight: bold;
+    color: #B6495A;
+    width: 65%;
+}
+.coloana {
+    padding: 2% 0;
+    box-sizing: border-box;
+    height: 20%;
+}
+.autor {
+    float: left;
+    color: #9D949C;
+}
+hr {
+    margin-top: 0;
+    clear: both;
+    margin: 2% -6% 3% -6%;
+}
+#one {
+    background-color: #CAC1BE;
+    height: 1px;
+    border: 0;
+}
+#two {
+    background-color: #8A8585;
+    height: 1px;
+    border: 0;
+}
+#onedown {
+    background-color: #CAC1BE;
+    height: 1px;
+    border: 0;
+    margin-top: 7%;
+}
+.nume {
+    font-weight: bold;
+    color: #4A4A4A;
+}
+.rating {
+    font-size: 19px;
+    float: right;
+}
+footer .title {
+    padding-bottom: 5%;
+}

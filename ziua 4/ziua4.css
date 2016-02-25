@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    background: linear-gradient(rgba(0, 0, 38, 0.4), rgba(0, 0, 38, 0.4)), url(images/m.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.bigcontainer {
+    margin: 0 auto;
+    margin-top: 7%;
+    width: 46%;
+    height: 600px;
+    box-shadow: -1px 4px 36px 0px rgba(89, 84, 89, 0.91);
+    background: url(images/m.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.left {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.title {
+    margin: 0 auto;
+    padding: 10% 0 0 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    color: #39659c;
+}
+.text {
+    padding-left: 10%;
+    padding-top: 0px;
+    color: #39659c;
+}
+.right {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+img {
+    border-radius: 50%;
+    margin: 17% 30%;
+}
+.login {
+    margin-bottom: 12px;
+    text-align: center;
+}
+.login a {
+    text-decoration: none;
+    color: #39659c;
+}
+input {
+    padding: 16px;
+    width: 70%;
+    margin: 9px 37px;
+}
+.submitt {
+    width: 80%;
+    background-color: #39659c;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+.forgot {
+    margin-top: 18%;
+    margin-left: 30%;
+}
+.forgot a {
+    text-decoration: none;
+    color: #39659c;
+}
+.submitt:hover {
+    background-color: #00264b;
+}
+a:hover {
+    color: #00264b;
+}
+.contact {
+    clear: both;
+}
